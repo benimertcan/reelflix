@@ -8,6 +8,10 @@
   --main-2:#8c8c8c;
   --main-3:#757575;
   --main-4:#999999;
+  --accent-Blue:#0071EB;
+  --accent-Orange:#FFA00A;
+  --accent-Green:#5FA53F;
+  --color-lightB:#222222;
   --default-font:"Signika",sans-serif;
  /*
   color: rgba(255, 255, 255, 0.87);
@@ -20,7 +24,9 @@
   */
   
 }
-
+/*{
+  border:purple 1px solid;
+}*/
 body{
   background-color: var(--primary-color);
   font-family: var(--default-font);
@@ -31,6 +37,7 @@ body{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  padding-bottom: 5vw;
 }
 p{
   margin-left: 5%;
@@ -74,6 +81,7 @@ p{
   margin: 0;
   margin-left: 10%;
   padding: 0;
+  width: 50%;
 }
 .typ-head{
   display: flex;
@@ -95,13 +103,11 @@ p{
   background-color: var(--primary-color);
   color: white;
   display: flex;
-
-justify-content: center;
+  justify-content: center;
   margin-left: 1vw;
   padding: 0;
   align-self: flex-start;
   width: 40%;
- 
 }
 .main-g1{
 background-color: var(--main-2);
@@ -113,6 +119,51 @@ background-color: var(--main-2);
 {
   background-color: var(--main-4);
 }
+
+.accent-blue{
+background-color: var(--accent-Blue);
+color: white;
+margin-right: 2vw;
+}
+.accent-orange{
+  background-color: var(--accent-Orange);
+  color: white;
+  margin-right: 2vw;
+}
+.accent-green{
+  background-color: var(--accent-Green);
+  color: white;
+  margin-right: 2vw;
+}
+.mainAccent-B{
+  background-color: white;
+  color:var(--accent-Blue)
+}
+.mainAccent-O{
+  background-color: white;
+  color:var(--accent-Orange)
+}
+.mainAccent-G{
+  background-color: white;
+  color:var(--accent-Green)
+}
+.back-Black{
+  background-color: var(--primary-bg-color);
+  color: white;
+}
+.accent-Black{
+  background-color: var(--primary-bg-color);
+  color: white;
+  margin-right: 2vw;
+  border:solid white 1px;
+}
+.accent-lightB{
+  background-color: var(--color-lightB);
+  color: white;
+  margin-right: 2vw;
+  border:solid purple 1px;
+}
+
   /*
 a {
   font-weight: 500;
