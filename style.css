@@ -2,7 +2,9 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
+  --primary-color:#e50914 ;
+  --primary-bg-color:#000000;
+  --default-font:"Signika",sans-serif;
  /*
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -12,13 +14,45 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   */
-  --primary-color:#e50914 ;
-  --primary-bg-color:#000000;
+  
 }
-.rect{
-  width: 100px;
-  height: 100px;
+body{
   background-color: var(--primary-color);
+  font-family: var(--default-font);
+}
+.home-page{
+  background-color: var(--primary-bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.primary{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 3vw 0;
+}
+.primary-ones{
+  width:30vw;
+  height: 15vh;
+  color: white;
+  margin-bottom: 2rem;
+}
+.red-one{
+  background-color: var(--primary-color);
+  width:30vw;
+  height: 15vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.black-one{
+  width:30vw;
+  height: 15vh;
+  border:solid white 1px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 /*
 a {
