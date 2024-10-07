@@ -3,7 +3,7 @@
   line-height: 1.5;
   font-weight: 400;
 
- 
+ /*
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
 
@@ -11,8 +11,16 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  */
+  --primary-color:#e50914 ;
+  --primary-bg-color:#000000;
 }
-
+.rect{
+  width: 100px;
+  height: 100px;
+  background-color: var(--primary-color);
+}
+/*
 a {
   font-weight: 500;
   color: #646cff;
@@ -94,3 +102,4 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+  */
