@@ -27,9 +27,6 @@
 /*{
   border:purple 1px solid;
 }*/
-p{
-  margin-left: 5%;
-}
 .app-index{
   display: flex;
   flex-direction: column;
@@ -64,6 +61,9 @@ body{
   align-items: flex-start;
   padding: 5rem;
   margin: 1rem;
+}
+.home-page p{
+  margin-left: .5rem;
 }
 .primary{
   display: flex;
@@ -169,31 +169,85 @@ margin-right: 2vw;
   margin-right: 2vw;
   
 }
-.types{
+.font-page{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-bg-color);
+  justify-content: center;
+  align-content: flex-start;
+  margin: .5rem;
+  padding: 2rem 0 ;
+}
+.types-head{
   display: flex;
   flex-direction: row;
-  text-align: left;
-  justify-content: flex-start;
+  justify-content: space-between;
+  padding: 0 5rem;
 }
-ul{
-  padding: 0 6% ;
+.types{
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+.types-in{
+  width: 48vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.types-in p:nth-child(1n)
+{
+  width: 12vw;
 }
 .lightBlack{
   background-color: var(--color-lightB);
 }
-.type-styles{
-  justify-content: flex-end;
-  align-items: center;
-}
-.first-ones{
-  margin:0 ;
-  padding: 0;
-}
 h1{
   font-weight: bold;
-  font-size: 50px 3rem;
+  font-size: 3rem ;
   line-height: 1.1;
   letter-spacing: -0.5%;
+}
+h2{
+  font-weight: bold;
+  font-size: 2rem ;
+  line-height: 1.1;
+  letter-spacing: -1%;
+}
+h3
+{
+  font-size:  1.6rem;
+  line-height: auto;
+  letter-spacing: 0%;
+}
+.subtitle{
+  font-weight: medium;
+  font-size: 19px;
+  line-height: auto;
+  letter-spacing: 0.5%;
+}
+.error-font{
+  font-size: 15px;
+  line-height: auto;
+  letter-spacing: 0%;
+}
+.label-font{
+  font-weight: bold;
+  font-size: 13px;
+  line-height: auto;
+  letter-spacing: 0%;
+}
+.link-font{
+  font-size: 13px;
+  line-height: auto;
+  letter-spacing: 0%;
+}
+.opacity-for-types{
+  opacity: 0.5;
 }
 .buttons-page{
   display: flex;
@@ -211,6 +265,16 @@ button{
   margin: 1rem;
   border-radius: .2rem;
   gap: 1rem;
+}
+.primary-button{
+  font-size: 1.2rem;
+  line-height: auto;
+  letter-spacing: 0.1%;
+}
+.secondary-button-font{
+  font-size: 16px;
+  line-height: auto;
+  letter-spacing: 0%;
 }
 .secondary-button{
   background-color:var(--secondary-button-color);
