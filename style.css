@@ -424,11 +424,14 @@ button:hover{
 .alignitems-center{
   display: flex;
 }
+.column{
+  display: flex;
+  flex-direction: column;
+}
 .header{
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  
 }
 .allpageleftpadding{
   padding-left:  5%;
@@ -451,7 +454,28 @@ button:hover{
   margin: 5rem 0;
 }
 .footer-section{
-  margin: 5rem;
+  margin: 10rem 25rem;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+
+.social-media-div img{
+  display: flex;
+  flex-direction: row;
+  width: 2rem;
+  margin: 0 1rem ;
+}
+
+.footer-section p{
+  color: var(--secondary-button-color);
+  font-size: 18px;
+  line-height: auto;
+  letter-spacing: 0%;
+}
+.footer-section button{
+  margin: 3rem 0 2rem 0;
 }
 
   /*
