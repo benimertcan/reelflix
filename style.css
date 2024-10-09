@@ -32,6 +32,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
+
 }
 .app-index button{
   background-color: var(--primary-bg-color);
@@ -295,6 +296,7 @@ button{
 }
 button:hover{
   opacity: 0.5;
+  transition: opacity 0.3s ease;
 }
 .who-page{
   background-color: var(--color-lightB);
@@ -325,6 +327,9 @@ button:hover{
  margin: 0;
  padding: 0;
  margin-right: .3rem;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
 }
 .movie-card-in{
  display: flex;
@@ -432,6 +437,7 @@ button:hover{
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
+  
 }
 .allpageleftpadding{
   padding-left:  5%;
@@ -442,11 +448,16 @@ button:hover{
   color: var(--main-color);
   margin: 0 0.5rem;
 }
+header a:hover{
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
 .nostretch{
   object-fit: none;
 }
 .cardslist:hover{
-  overflow-y:auto;
+  overflow-x:auto;
+  overflow-y: hidden;
 }
 .highlights-div{
   width:570px;
@@ -454,7 +465,7 @@ button:hover{
   margin: 5rem 0;
 }
 .footer-section{
-  margin: 10rem 25rem;
+  margin: 10rem 20rem;
 }
 .row{
   display: flex;
@@ -464,20 +475,50 @@ button:hover{
 .social-media-div img{
   display: flex;
   flex-direction: row;
-  width: 2rem;
-  margin: 0 1rem ;
+  width: 3rem;
+  margin: 1rem .7rem ;
+}
+.footer-links{
+  width: 25rem;
+}
+.footer-links button{  
+  margin: 3rem 0 2rem 0;
 }
 
-.footer-section p{
+.footer-section a{
   color: var(--secondary-button-color);
   font-size: 18px;
   line-height: auto;
   letter-spacing: 0%;
+  padding-bottom: 1rem;
+  text-decoration: none;
 }
-.footer-section button{
-  margin: 3rem 0 2rem 0;
+.still-header{
+  position: fixed;
+  top: 0;
+  opacity: 1;
+  width: 92vw;
+  height: 7vh;
+  padding: 0 5%;
 }
 
+.footer-section a:hover{
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+header a:first-child{
+  font-size: large;
+}
+.alignitems-center{
+  display: flex;
+  align-items: center;
+}
+.bgimg{
+  background-image: url("/public/img/house-of-ninjas.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 75vh;
+}
   /*
 a {
   font-weight: 500;
