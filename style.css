@@ -513,12 +513,11 @@ header a:first-child{
   display: flex;
   align-items: center;
 }
-.bgimg{
-  background-image: url("/public/img/house-of-ninjas.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 75vh;
-}
+
+
+
+
+
   /*
 a {
   font-weight: 500;
