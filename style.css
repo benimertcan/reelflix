@@ -25,9 +25,9 @@
   */
   
 }
-*{
+/*{
   border:purple 1px solid;
-}*
+}*/
 .app-index{
   display: flex;
   flex-direction: column;
@@ -317,13 +317,14 @@ button:hover{
 }
 .movie-card{
   background-color: var(--color-lightB);
-  min-width: 45%;
+  min-width: 20rem;
   aspect-ratio: 16/9;
  display: flex;
  flex-direction: column;
  justify-content: space-between;
  margin: 0;
  padding: 0;
+ margin-right: .3rem;
 }
 .movie-card-in{
  display: flex;
@@ -333,13 +334,13 @@ button:hover{
  
 }
 .nf-logo{
- max-width: 5%;
-  max-height: 15%;
+ max-width: 1rem;
+  max-height: 1.5rem;
   margin: 1rem;
 }
 .top-ten{
-  max-width: 15%;
-  max-height: 25%;
+  max-width: 1.5rem;
+  max-height: 2.5rem;
   margin: 0;
   padding: 0;
 }
@@ -354,32 +355,47 @@ button:hover{
   justify-content: center;
   background-color: var(--primary-color);
   margin: 0;
-  padding: 1%;
-  width: 10rem;
+  width: 8rem;
   font-size: 1.1rem;
 }
 .number-card{
   background-color: var(--primary-bg-color);
-  min-width: 45%;
+  min-width: 20rem;
   aspect-ratio: 16/9;
  display: flex;
  flex-direction: row;
  justify-content: space-between;
- margin: 1rem;
  padding: 0;
 }
+.number-card .movie-card{
+  background-color: var(--color-lightB);
+  min-width: 10rem;
+  aspect-ratio: 16/9;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ margin: 0;
+ padding: 0;
+}
+
 .number-card-in{
-  width: 50%;
-  font-family: var(--default-font);
-  font-size: 10rem;
-  font-weight: bold;
-  color: var(--primary-bg-color);
-  -webkit-text-stroke: 10px var(--color-lightB);
+  min-width: 10rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-
 }
+.number-card-in p{
+  font-family: var(--default-font);
+  padding: 0;
+  margin: 0;
+  font-size: 14rem;
+  font-weight: bolder;
+  color: var(--primary-bg-color);
+  -webkit-text-stroke: 5px var(--color-lightB);
+  line-height: 0; 
+  margin-right: -3rem;
+}
+
 .number-card .recently p{
   width: 6rem;
   font-size: .6rem;
@@ -426,10 +442,16 @@ button:hover{
 .nostretch{
   object-fit: none;
 }
+.cardslist:hover{
+  overflow-y:auto;
+}
 .highlights-div{
   width:570px;
   padding: 0;
   margin: 5rem 0;
+}
+.footer-section{
+  margin: 5rem;
 }
 
   /*
