@@ -1,21 +1,347 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/public/icons/MovieBlock/icon-netflix.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
-    <title>ReelFlix</title>
-  </head>
-  <body>
-    <div class="app-index"><h1>MERTCAN</h1>
-      <button class="primary-button"><a href="design-system.html">Design System</a></button>
-      <button class="primary-button"><a href="typography.html">Typography</a></button>
-      <button class="primary-button"><a href="buttons.html">Buttons</a></button>
-      <button class="primary-button"><a href="whos-watching.html">Who's Watching?</a></button>
-      <button class="primary-button"><a href="movie-cards.html">Movie Cards</a></button>
-      <button class="primary-button"><a href="reelflix-index.html">ReelFlix</a></button>
+    <title>Ana Sayfa - ReelFlix</title>
+</head>
+
+<body style="background-color:#000000 ; margin: 0;overflow-X: hidden;">
+    <div class="nf-background-color" style="margin: 0; padding-bottom:5rem ;">
+        <!---Header Start--->
+        <header class="justifycontent-spacebetween still-header alignitems-center">
+            <div class="header align-start alignitems-center">
+                <a href=""> <img src="public/icons/Logo.svg" style="padding-right: 2rem;"></a>
+                <div class="alignitems-center">
+                    <a href="reelflix-index.html">Home</a>
+                    <a href="">TV Shows</a>
+                    <a href="">Movies</a>
+                    <a href="">News & Popular</a>
+                    <a href="">My List</a>
+                    <a href="">Browse by Languages</a>
+                </div>
+            </div>
+            <div class="align-end alignitems-center ">
+                <a href=""> <img src="public/icons/Icon/Medium/Search.svg" class="nostretch"></a>
+                    <a href=""> <img src="public/icons/Icon/Medium/Notification.svg" class="nostretch"></a>
+                        <a href="whos-watching.html"> <img src="public/icons/SmallAvatar.svg" class="nostretch"></a>
+            </div>
+        </header>
+        <!---Header End--->
+
+        <!---Highlighted Movie Section Start--->
+                
+        <section class=" allpageleftpadding nomargin nopadding alignitems-center" style="background-image: url(public/img/house-of-ninjas.jpg);background-position: center;background-repeat: no-repeat;">        
+            <div class="highlights-div content">
+                <img src="public/icons/hero-title.png" class="nostretch">
+                <p class="subtitle">Years after retiring from their formidable ninja lives, a dysfunctional family must return to shadowy missions to counteract a string of looming threats.</p>
+                <div class="align-start">
+                    <button class="primary-button nomargin" style="margin-right: 1rem;"><img src="public/icons/icon-play.svg"> Play</button>
+                    <button class="secondary-button nomargin"><img src="public/icons/icon-info.svg"> More Info</button>
+                </div>
+            </div>
+        </section>
+    
+        <!---Highlighted Movie Section End--->
+
+        <!---Matched to You Section Start--->
+        <h3 class=" allpageleftpadding nomargin" style="padding-top: 1rem;">Matched to You</h3>
+        <section class="nf-background-color allpageleftpadding" style="padding-bottom: 1rem;">
+            <div class="align-start cardslist">
+                <div class="movie-card" style="background-image: url(public/img/prison-break.jpg);">
+                    <div class="movie-card-in">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+                    </div>
+                    <div class="recently">
+                        <p class="recently-in text-field">Recently Added</p>
+                    </div>
+                </div>
+                <div class="movie-card" style="background-image: url(public/img/lost.jpg);">
+                    <div class="movie-card-in">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+                    </div>
+                </div>
+                <div class="movie-card" style="background-image: url(public/img/ersan-kuneri.jpg);">
+                    <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+                </div>
+                <div class="movie-card" style="background-image: url(public/img/la-casa-de-papel.jpg);">
+                    <div class="movie-card-in">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+                        <img src="public/icons/MovieBlock/icon-top10.svg" class="top-ten">
+                    </div>
+                    <div class="recently">
+                        <p class="recently-in text-field">Recently Added</p>
+                    </div>
+                </div>
+                <div class="movie-card" style="background-image: url(public/img/walking-dead.jpg);">
+                    <div class="movie-card-in">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+                    </div>
+                    <div class="recently">
+                        <p class="recently-in text-field">Recently Added</p>
+                    </div>
+                </div>
+                <div class="movie-card" style="background-image: url(public/img/breaking-bad.jpg);">
+                    <div class="movie-card-in">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+                    </div>
+                    <div class="recently">
+                        <p class="recently-in text-field">Recently Added</p>
+                    </div>
+                </div>
+                <div class="movie-card" style="background-image: url(public/img/dexter.jpg);">
+                    <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+                </div>
+                <div class="movie-card" style="background-image: url(public/img/vikings.jpg);">
+                    <div class="movie-card-in">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+                        <img src="public/icons/MovieBlock/icon-top10.svg" class="top-ten">
+                    </div>
+                    <div class="recently">
+                        <p class="recently-in text-field">Recently Added</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---Matched to You Section End--->
+
+        <!---New on Netflix Section Start--->
+        <h3 class=" allpageleftpadding nomargin" style="padding-top: 1rem;">New on Netflix</h3>
+        <section class=" allpageleftpadding" style="padding-bottom: 1rem;">
+            <div class="align-start  cardslist">
+                <div class="movie-card" style="background-image: url(public/img/walking-dead.jpg);">
+                    <div class="movie-card-in">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+                    </div>
+                    <div class="recently">
+                        <p class="recently-in text-field">Recently Added</p>
+                    </div>
+                </div>
+                <div class="movie-card" style="background-image: url(public/img/breaking-bad.jpg);">
+                    <div class="movie-card-in">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+                    </div>
+                    <div class="recently">
+                        <p class="recently-in text-field">Recently Added</p>
+                    </div>
+                </div>
+                <div class="movie-card" style="background-image: url(public/img/dexter.jpg);">
+                    <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+                </div>
+                <div class="movie-card" style="background-image: url(public/img/vikings.jpg);">
+                    <div class="movie-card-in">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+                        <img src="public/icons/MovieBlock/icon-top10.svg" class="top-ten">
+                    </div>
+                    <div class="recently">
+                        <p class="recently-in text-field">Recently Added</p>
+                    </div>
+                </div>
+                <div class="movie-card" style="background-image: url(public/img/prison-break.jpg);">
+                    <div class="movie-card-in">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+                    </div>
+                    <div class="recently">
+                        <p class="recently-in text-field">Recently Added</p>
+                    </div>
+                </div>
+                <div class="movie-card" style="background-image: url(public/img/lost.jpg);">
+                    <div class="movie-card-in">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+                    </div>
+                </div>
+                <div class="movie-card" style="background-image: url(public/img/ersan-kuneri.jpg);">
+                    <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+                </div>
+                <div class="movie-card" style="background-image: url(public/img/la-casa-de-papel.jpg);">
+                    <div class="movie-card-in">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+                        <img src="public/icons/MovieBlock/icon-top10.svg" class="top-ten">
+                    </div>
+                    <div class="recently">
+                        <p class="recently-in text-field">Recently Added</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---New on Netflix Section End--->
+
+        <!---Top 10 movies in the U.S. Today Section Start--->
+        <h3 class=" allpageleftpadding nomargin" style="padding-top: 1rem;">Top 10 movies in the U.S. Today</h3>
+        <section class=" allpageleftpadding" style="padding-bottom: 1rem;">
+            <div class="align-start  cardslist">
+                <div class="number-card">
+                    <div class="number-card-in">
+                        <p>1</p>
+                    </div>
+                    <div class="movie-card" style="background-image: url(public/img/platform2.jpg);">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+
+                        <div class="recently">
+                            <p class="recently-in">Recently Added</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="number-card">
+                    <div class="number-card-in">
+                        <p>2</p>
+                    </div>
+                    <div class="movie-card" style="background-image: url(public/img/predator.jpg);">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+
+                        <div class="recently">
+                            <p class="recently-in">Recently Added</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="number-card">
+                    <div class="number-card-in">
+                        <p>3</p>
+                    </div>
+                    <div class="movie-card" style="background-image: url(public/img/black-adam.jpg);">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+
+                        <div class="recently">
+                            <p class="recently-in">Recently Added</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="number-card">
+                    <div class="number-card-in">
+                        <p>4</p>
+                    </div>
+                    <div class="movie-card" style="background-image: url(public/img/belali-is.jpg);">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+
+                        <div class="recently">
+                            <p class="recently-in">Recently Added</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="number-card">
+                    <div class="number-card-in">
+                        <p>5</p>
+                    </div>
+                    <div class="movie-card" style="background-image: url(public/img/tam-bir-centilmen.jpg);">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+
+                        <div class="recently">
+                            <p class="recently-in">Recently Added</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="number-card">
+                    <div class="number-card-in">
+                        <p>6</p>
+                    </div>
+                    <div class="movie-card" style="background-image: url(public/img/monsters.jpg);">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+
+                        <div class="recently">
+                            <p class="recently-in">Recently Added</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="number-card">
+                    <div class="number-card-in">
+                        <p>7</p>
+                    </div>
+                    <div class="movie-card" style="background-image: url(public/img/miss-peregrines.jpg);">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+
+                        <div class="recently">
+                            <p class="recently-in">Recently Added</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="number-card">
+                    <div class="number-card-in">
+                        <p>8</p>
+                    </div>
+                    <div class="movie-card" style="background-image: url(public/img/icinde-kim-var.jpg);">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+
+                        <div class="recently">
+                            <p class="recently-in">Recently Added</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="number-card">
+                    <div class="number-card-in">
+                        <p>9</p>
+                    </div>
+                    <div class="movie-card" style="background-image: url(public/img/ghostbusters.jpg);">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+
+                        <div class="recently">
+                            <p class="recently-in">Recently Added</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="number-card">
+                    <div class="number-card-in">
+                        <p>10</p>
+                    </div>
+                    <div class="movie-card" style="background-image: url(public/img/mercy.jpg);">
+                        <img src="public/icons/MovieBlock/icon-netflix.png" class="nf-logo">
+
+                        <div class="recently">
+                            <p class="recently-in">Recently Added</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!---Top 10 movies in the U.S. Today Section End--->
+
+        <!---Footer Section Start--->
+        <footer>
+            <div>
+                <div class="footer-section justifycontent-spacebetween column">
+                    <div class="social-media-div row">
+                        <a href=""> <img src="public/icons/facebook.svg"></a>
+                        <a href=""> <img src="public/icons/instagram.svg"></a>
+                        <a href=""><img src="public/icons/twitter.svg"></a>
+                        <a href=""> <img src="public/icons/youtube.svg"></a>
+                    </div>
+                    <div class="row justifycontent-spacebetween">
+                        <div class="footer-links column">
+                            <a href="">Audio Description</a>
+                            <a href="">Investor Relations</a>
+                            <a href="">Privacy</a>
+                            <a href="">Contact Us</a>
+                            <div>
+                                <button class="other-button nostretch">Service Code</button>
+                            </div>
+                            <a href="" class="link-font">©1997 - 2024 Netflix, Inc.</a>
+                        </div>
+                        <div class="footer-links column">
+                            <a href="">Help Center</a>
+                            <a href="">Jobs</a>
+                            <a href="">Legal Notices</a>
+                            <a href="">Do Not Sell or Share My Personal Information</a>
+                        </div>
+                        <div class="footer-links column">
+                            <a href="">Gift Cards</a>
+                            <a href="">Netflix Shop</a>
+                            <a href="">Cookie Preferences</a>
+                            <a href="">Add Choices</a>
+                        </div>
+                        <div class="footer-links column">
+                            <a href="">Media Center</a>
+                            <a href="">Terms Of Use</a>
+                            <a href="">Corporate Information</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!---Footer Section End--->
     </div>
-  </body>
+</body>
+
 </html>
